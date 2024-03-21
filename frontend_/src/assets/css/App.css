@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#card-new-room{
+  width: 400px;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.card-chatroom:hover{
+  background-color: #83f89f;
+}
+
+/* ChatRoom*/
+
+
+#title{
+  color: #21ba66;
+}
+
+#card-name{
+  width: 600px;
+}
+
+#card-message{
+  background-color: #21ba66;
+  width: 600px;
+}
+
+#card-chat{
+  background-color: #21ba66;
+  width: 600px;
+  height: 450px;
+  overflow-y: scroll;
+}
+
+#list-messages{
+  list-style: none;
+}
+
+.card-message{
+  width: 300px;
+  text-align: left;
+}
+
+.card-message-other{
+  width: 300px;
+  text-align: left;
+}
+
+.card-message-saved{
+  width: 300px;
+  text-align: left;
+}
+
+.card-message:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 80%;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #85dfae transparent transparent;
+}
+
+.card-message-other:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 80%;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #fff transparent transparent;
+}
+
+.card-message-saved:before {
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 80%;
+  border-width: 15px 15px 0;
+  border-style: solid;
+  border-color: #fff transparent transparent;
+}
+
+.card-body-message-user{
+  background-color: #85dfae;
+}
+
